@@ -9,4 +9,36 @@
 {
     width: 100vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+/******** HEADER *******/
+header
+{
+    height: 100px;
+    background-color: brown;
+}
+/******** FOOTER *******/
+footer
+{
+    height: 100px;
+    background-color: lightsalmon;
+}
+/******** MAIN *******/
+main{
+
+    height: calc( 100vh - 200px);
+    display: flex;
+    flex-direction: row;
+}
+aside
+{
+    width: 15vw;
+    background-color: limegreen;
+}
+section
+{
+    width: 85vw;
+    background-color: mediumpurple;
+    overflow-y: auto;
 }
