@@ -5,40 +5,68 @@
     box-sizing: border-box;
 }
 
-.container
+.container-flex
 {
-    width: 100vw;
-    margin: auto;
+
     display: flex;
+    height: 100vh;
     flex-direction: column;
+}
+/******** UTILITY *******/
+
+.m-15
+{
+    margin: 15px;
 }
 /******** HEADER *******/
 header
 {
-    height: 100px;
-    background-color: brown;
+    flex-basis: 100px;
+    background-color: #080b12;
 }
 /******** FOOTER *******/
 footer
 {
-    height: 100px;
-    background-color: lightsalmon;
+    flex-basis: 100px;
+    background-color: #282828;
 }
 /******** MAIN *******/
 main{
 
-    height: calc( 100vh - 200px);
+    flex-grow: 1;
     display: flex;
     flex-direction: row;
 }
 aside
 {
-    width: 15vw;
-    background-color: limegreen;
+    flex-basis: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
 }
-section
+
+.aside-buttons
 {
-    width: 85vw;
-    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#profile
+{
+    border-radius: 50%;
+    background-color: #808080;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.main-content
+{
+    flex-grow: 1;
+    background-color: #141922;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
