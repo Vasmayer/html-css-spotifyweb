@@ -93,7 +93,50 @@
     padding: 120px 0 120px 20px;
     color: white;
 }
+/* navbar */
+main nav
+{
 
+}
+/* section recently played */
+#recently-played
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* traces */
+#recently-played .trace
+{
+    margin-right: 20px;
+    width: calc( 50% - 20px );
+}
+.trace-image img
+{
+   max-width: 100%;
+   object-fit: cover;
+   height: auto;
+}
+.trace-info
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.trace-info .trace-title
+{
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.trace-info .trace-subtitle
+{
+    color: #7d7f84;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 /****** FOOTER ******/
 footer{
     height: 100px;
