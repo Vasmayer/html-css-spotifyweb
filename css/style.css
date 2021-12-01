@@ -34,14 +34,18 @@ aside
 /* UPPER CONTAINER > MAIN CONTENT > hearder */
 header
 {
-    flex-basis: 100px;
+    height: 100px;
     background-color: #080b12;
-    flex-shrink: 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    opacity: 0.5;
 }
 /* UPPER CONTAINER > MAIN CONTENT > main */
 main
 {
     flex-grow: 1;
+    padding: 120px 0 120px 20px;
 }
 
 /****** FOOTER ******/
