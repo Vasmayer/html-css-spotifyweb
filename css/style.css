@@ -11,6 +11,10 @@
 {
     margin: 15px;
 }
+.border-radius-50
+{
+    border-radius: 50%;
+}
 /****** UPPER CONTAINER ******/
 .upper-container
 {
@@ -113,17 +117,31 @@ nav ul li{
     margin-bottom: 25px;
 }
 /* section recently played */
-#recently-played
+#recently-played,#create-for-you,#popular-artist
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+/* name sections */
+h1
+{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+h3
+{
+    color: #7c7e83;
+    font-size: 12px;
+    margin: 20px 0;
+}
 /* traces */
-#recently-played .trace
+#recently-played .trace,#create-for-you .trace,#popular-artist .trace
 {
     margin-right: 20px;
     width: calc( 50% - 20px );
+    margin-bottom: 10px;
 }
 .trace-image img
 {
@@ -155,4 +173,9 @@ nav ul li{
 footer{
     height: 100px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* trace and like */
