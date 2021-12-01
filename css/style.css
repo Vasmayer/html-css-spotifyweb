@@ -96,7 +96,21 @@
 /* navbar */
 main nav
 {
-
+    margin-bottom: 15px;
+}
+main nav ul{
+    display: flex;
+    list-style-type: none;
+    color: #7d7f84;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    
+    font-size: 11px;
+    padding-right: 30px;
+    margin-bottom: 25px;
 }
 /* section recently played */
 #recently-played
