@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/****** UTILITY ******/
+.m-15
+{
+    margin: 15px;
+}
 /****** UPPER CONTAINER ******/
 .upper-container
 {
@@ -20,6 +25,32 @@
     flex-basis: 70px;
     background-color: black;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* buttons of sidebar */
+.aside-buttons-bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button profile */
+#btn-profile
+{
+    border-radius: 50%;
+    background-color: #808080;
+    width: 25px;
+    height: 25px;
+}
+#btn-download
+{
+    width: 15px;
+    height: 15px;
 }
 /* MAIN CONTENT */
 .upper-container .main-content
@@ -44,8 +75,8 @@
     align-items: center;
 
 }
-
-.main-content header button
+/* button upgrade */
+.main-content header>button
 {
     color: white;
     border: 1px solid white;
