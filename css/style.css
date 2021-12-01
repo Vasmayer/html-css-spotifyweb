@@ -11,15 +11,30 @@
 {
     margin: 15px;
 }
+.mr-10
+{
+    margin-right: 10px;
+}
+.mr-25
+{
+    margin-right: 25px;
+}
 .border-radius-50
 {
     border-radius: 50%;
+}
+.color-gray
+{
+    color: #7d7f84;
+}
+.color-white
+{
+    color: white;
 }
 /****** UPPER CONTAINER ******/
 .upper-container
 {
     height: calc( 100vh - 100px );
-    background-color: brown;
     display: flex;
 }
 
@@ -178,4 +193,44 @@ footer{
     align-items: center;
 }
 
-/* trace and like */
+/* trace/like/folder */
+#footer-trace
+{
+    display: flex;
+    align-items: center;
+}
+#footer-trace img
+{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#footer-trace .footer-trace-info
+{
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+}
+/* Player */
+#footer-player
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* controls */
+.controls
+{
+    display: flex;
+    align-items: center;
+}
+
+/* sounds */
+
+.footer-sound
+{
+    display: flex;
+}
