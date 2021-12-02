@@ -34,17 +34,17 @@
         </aside>
         <div class="main-content">
             <header>
-                <button>EFFETTUA L'UPGRADE</button>
+                <button class="hover-white X1-1">EFFETTUA L'UPGRADE</button>
             </header>
             <main>
                 <nav>
                     <ul>
-                        <li>IN EVIDENZA</li>
-                        <li>PODCAST</li>
-                        <li>CLASSIFICHE</li>
-                        <li>GENERI E MOD</li>
-                        <li>NUOVE USCITE</li>
-                        <li>SCOPRI</li>
+                        <li class="hover-white">IN EVIDENZA <div class="active"></div></li>
+                        <li class="hover-white">PODCAST</li>
+                        <li class="hover-white">CLASSIFICHE</li>
+                        <li class="hover-white">GENERI E MOD</li>
+                        <li class="hover-white">NUOVE USCITE</li>
+                        <li class="hover-white">SCOPRI</li>
                     </ul>
                 </nav>
                 <h1>Recently played</h1>
@@ -52,6 +52,9 @@
                     <div class="trace">
                         <div class="trace-image">
                             <img src="img/metal_lifting.jpg" alt="metal">
+                            <div class="overlay"></div>
+                            <div class="hover-play"><i class="color-white far fa-4x fa-play-circle"></i></div>
+                           
                         </div>
                         <div class="trace-info">
                             <div class="trace-title">Heavy Metal</div>
@@ -157,31 +160,37 @@
             <img src="img/sinister.jpeg" alt="sinister">
             <div class="footer-trace-info">
                 <div>Sinister</div>
-                <div class="color-gray">Brano</div>
-                <div class="color-gray">Nome</div>
+                <div class="color-gray hover-white">Brano</div>
+                <div class="color-gray hover-white">Nome</div>
             </div>
             <div class="icons">
-                <div><i class="far fa-heart color-gray"></i></div>
-                <div></div><i class="far fa-folder color-gray"></i></div>
+                <div><i class="far fa-heart color-gray hover-white"></i></div>
+                <div></div><i class="far fa-folder color-gray hover-white"></i></div>
             </div>  
         </div>
         <div id="footer-player">
             <div class="controls">
-                <i class="color-white fas fa-random mr-25"></i>
-                <i class="color-white fas fa-step-backward mr-25"></i>
-                <i class="color-white far fa-2x fa-play-circle mr-25"></i>
-                <i class="color-white fas fa-step-forward mr-25"></i>
-                <i class="color-white fas fa-redo-alt mr-25"></i>
-                <div class="bar"></div>
+                <i class="color-white fas fa-random mr-25 X1-1"></i>
+                <i class="color-white fas fa-step-backward mr-25 X1-1"></i>
+                <i class="color-white far fa-2x fa-play-circle mr-25 X1-1"></i>
+                <i class="color-white fas fa-step-forward mr-25 X1-1"></i>
+                <i class="color-white fas fa-redo-alt X1-1"></i>
             </div>
-            <div class="bar">
-
+            <div class="bar-info mt-10">
+                    <div class="time-score color-white mr-10">0:25</div>
+                    <div class="bar mr-10">
+                        <div class="bar-value"></div>
+                    </div>
+                    <div class="time-total-trace color-white">4:35</div>
             </div>
         </div>
         <div id="footer-sound">
             <i class="color-white fas fa-list mr-10"></i>
             <i class="color-white fas fa-desktop mr-10"></i>
             <i class="color-white fas fa-volume-up mr-10"></i>
+            <div class="volume mr-10">
+                <div class="volume-value"></div>
+            </div>
         </div>
     </footer>
 
