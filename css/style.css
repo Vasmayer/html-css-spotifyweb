@@ -254,6 +254,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 
 /* trace/like/folder */
@@ -307,12 +308,27 @@ footer{
     flex-basis: 100%;
     height: 3px;
     background-color: #5a5a5a;
+    position: relative;
+
 }
 .bar-value
 {
     width: 50%;
     height: 3px;
     background-color: white;
+}
+.bar:hover .bar-value::after
+{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 /* sounds */
 
@@ -327,10 +343,28 @@ footer{
     width: 80px;
     height: 3px;
     background-color: #5a5a5a;
+    position: relative;
 }
 .volume-value
 {
     width: 50%;
     height: 3px;
     background-color: white;
+}
+.volume:hover .volume-value::after
+{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.volume:hover .volume-value
+{
+  background-color: #adff2f;
 }
