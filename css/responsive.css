@@ -1,18 +1,32 @@
 /* 576px , 768px, 992px */
 @media screen and ( min-width: 768px ) {
 
-   
+    #recently-played .trace,#create-for-you .trace,#popular-artist .trace
+    {
+        flex-basis: calc( 25% - 20px );
+    }
+    .upper-container aside
+    {
+        flex-basis: 250px;
+        align-items: flex-start;
+    }
+    .display-block
+    {
+        display:block;
+    }
+    .display-none-large
+    {
+        display: none;
+    }
     
 }
 
 @media screen and ( min-width: 992px ) {
 
-   
+    #recently-played .trace,#create-for-you .trace,#popular-artist .trace
+    {
+        flex-basis: calc( 100% / 6 - 20px );
+    }
     
 }
 
-@media screen and ( min-width: 993px ) {
-
-   
-    
-}

@@ -35,6 +35,24 @@
 {
     color: white;
 }
+.vertical-align
+{
+    vertical-align: middle;
+}
+.d-fixed
+{
+    width: 25px;
+    height: 25px;
+}
+.d-fixed-300X80
+{
+    width: 300px;
+    height: 80px;
+}
+.display-none
+{
+    display: none;
+}
 /* hovers */
 .hover-white:hover
 {
@@ -88,15 +106,22 @@
     justify-content: space-between;
     align-items: center;
 }
+
 /* buttons of sidebar */
-.aside-buttons-bottom
+/*.aside-buttons-bottom
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.aside-buttons-top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
 /* button profile */
 #btn-profile
 {
