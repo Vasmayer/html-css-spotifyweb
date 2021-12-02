@@ -107,21 +107,6 @@
     align-items: center;
 }
 
-/* buttons of sidebar */
-/*.aside-buttons-bottom
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.aside-buttons-top
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
 /* button profile */
 #btn-profile
 {

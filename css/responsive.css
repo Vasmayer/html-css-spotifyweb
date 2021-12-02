@@ -14,6 +14,10 @@
     {
         display:block;
     }
+    .display-inline-block
+    {
+        display:inline-block;
+    }
     .display-none-large
     {
         display: none;
